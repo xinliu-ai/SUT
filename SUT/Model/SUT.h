@@ -10,4 +10,17 @@
 
 @interface SUT : NSObject
 
+@property (nonatomic) NSInteger count;
+
+@property (nonatomic,strong) NSUserDefaults *defaults;
+
+-(id) initWithUserDefalts:(NSUserDefaults *) defaults;
+
+-(void) increstment;
+
+-(void) decrestment;
+
+-(NSInteger) getCountInUserDefalts;
+
+
 @end
