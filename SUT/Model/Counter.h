@@ -1,14 +1,15 @@
 //
-//  SUT.h
+//  Counter.h
 //  SUT
 //
-//  Created by xin on 16/11/6.
+//  Created by xin on 16/11/7.
 //  Copyright © 2016年 xin. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SUT : NSObject
+@interface Counter : NSObject
+
 
 @property (nonatomic) NSInteger count;
 
@@ -21,6 +22,5 @@
 -(void) decrestment;
 
 -(NSInteger) getCountInUserDefalts;
-
 
 @end
